@@ -1,0 +1,713 @@
+[
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "bakerloo",
+    "name": "Bakerloo",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.587Z",
+    "modified": "2020-04-15T13:25:33.587Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "bakerloo",
+        "statusSeverity": 3,
+        "statusSeverityDescription": "Part Suspended",
+        "reason": "Bakerloo Line: A 10 minute service is operating between Elephant & Castle and Queen's Park. A 30 minute service is operating between Queen's Park and Harrow & Wealdstone due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T07:05:51Z",
+            "toDate": "2020-04-21T13:05:51Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Bakerloo Line: A 10 minute service is operating between Elephant & Castle and Queen's Park. A 30 minute service is operating between Queen's Park and Harrow & Wealdstone due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "partSuspended"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "bakerloo",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Bakerloo Line: A 10 minute service is operating between Elephant & Castle and Queen's Park. A 30 minute service is operating between Queen's Park and Harrow & Wealdstone due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T07:05:52Z",
+            "toDate": "2020-04-21T13:05:52Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Bakerloo Line: A 10 minute service is operating between Elephant & Castle and Queen's Park. A 30 minute service is operating between Queen's Park and Harrow & Wealdstone due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "central",
+    "name": "Central",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.59Z",
+    "modified": "2020-04-15T13:25:33.59Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "central",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Central Line: A 15 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T07:27:57Z",
+            "toDate": "2020-04-21T13:27:57Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Central Line: A 15 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Central&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Central&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "circle",
+    "name": "Circle",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.587Z",
+    "modified": "2020-04-15T13:25:33.587Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "circle",
+        "statusSeverity": 4,
+        "statusSeverityDescription": "Planned Closure",
+        "reason": "CIRCLE LINE: No service until further notice due to operational restrictions.",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-07T12:41:00Z",
+            "toDate": "2020-12-31T01:29:00Z",
+            "isNow": false
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "PlannedWork",
+          "categoryDescription": "PlannedWork",
+          "description": "CIRCLE LINE: No service until further notice due to operational restrictions.",
+          "created": "2020-04-07T12:42:00Z",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "plannedClosure"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "circle",
+        "statusSeverity": 20,
+        "statusSeverityDescription": "Service Closed",
+        "reason": "Circle Line: No service due to operational restrictions. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:36:21Z",
+            "toDate": "2020-04-21T12:36:21Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Circle Line: No service due to operational restrictions. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "serviceClosed"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Circle&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "district",
+    "name": "District",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.587Z",
+    "modified": "2020-04-15T13:25:33.587Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "district",
+        "statusSeverity": 3,
+        "statusSeverityDescription": "Part Suspended",
+        "reason": "District Line: A 10 minute service is operating between Upminster and Kensington (Olympia). A 12 minute service is operating between Wimbledon and Edgware Road. A 22 minute service is operating between High Street Kensington and Richmond. A 16 minute service is operating between Ealing Broadway and Tower Hill due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T04:04:57Z",
+            "toDate": "2020-04-21T13:04:57Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "District Line: A 10 minute service is operating between Upminster and Kensington (Olympia). A 12 minute service is operating between Wimbledon and Edgware Road. A 22 minute service is operating between High Street Kensington and Richmond. A 16 minute service is operating between Ealing Broadway and Tower Hill due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "partSuspended"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "district",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "District Line: A 10 minute service is operating between Upminster and Kensington (Olympia). A 12 minute service is operating between Wimbledon and Edgware Road. A 22 minute service is operating between High Street Kensington and Richmond. A 16 minute service is operating between Ealing Broadway and Tower Hill due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T04:04:59Z",
+            "toDate": "2020-04-21T13:04:59Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "District Line: A 10 minute service is operating between Upminster and Kensington (Olympia). A 12 minute service is operating between Wimbledon and Edgware Road. A 22 minute service is operating between High Street Kensington and Richmond. A 16 minute service is operating between Ealing Broadway and Tower Hill due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=District&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "hammersmith-city",
+    "name": "Hammersmith & City",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.58Z",
+    "modified": "2020-04-15T13:25:33.58Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "hammersmith-city",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Hammersmith and City Line: A 15 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:38:31Z",
+            "toDate": "2020-04-21T12:38:31Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Hammersmith and City Line: A 15 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Hammersmith & City&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "jubilee",
+    "name": "Jubilee",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.57Z",
+    "modified": "2020-04-15T13:25:33.57Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "jubilee",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Jubilee Line: A 10 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T07:28:40Z",
+            "toDate": "2020-04-21T13:28:40Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Jubilee Line: A 10 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Jubilee&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Jubilee&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "metropolitan",
+    "name": "Metropolitan",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.577Z",
+    "modified": "2020-04-15T13:25:33.577Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "metropolitan",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Metropolitan Line: A 15 minute service is operating between Baker Street and Watford and between Aldgate and Uxbridge. A 30 minute service is operating between Harrow-on-the-Hill and Amersham / Chesham. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:39:29Z",
+            "toDate": "2020-04-21T12:39:29Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Metropolitan Line: A 15 minute service is operating between Baker Street and Watford and between Aldgate and Uxbridge. A 30 minute service is operating between Harrow-on-the-Hill and Amersham / Chesham. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "metropolitan",
+        "statusSeverity": 3,
+        "statusSeverityDescription": "Part Suspended",
+        "reason": "Metropolitan Line: A 15 minute service is operating between Baker Street and Watford and between Aldgate and Uxbridge. A 30 minute service is operating between Harrow-on-the-Hill and Amersham / Chesham. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:39:23Z",
+            "toDate": "2020-04-21T12:39:23Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Metropolitan Line: A 15 minute service is operating between Baker Street and Watford and between Aldgate and Uxbridge. A 30 minute service is operating between Harrow-on-the-Hill and Amersham / Chesham. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "partSuspended"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Metropolitan&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "northern",
+    "name": "Northern",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.583Z",
+    "modified": "2020-04-15T13:25:33.583Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "northern",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Northern Line: A 10 minute service on the rest of the line due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T09:59:37Z",
+            "toDate": "2020-04-21T12:59:37Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Northern Line: A 10 minute service on the rest of the line due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Northern&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Northern&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "piccadilly",
+    "name": "Piccadilly",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.573Z",
+    "modified": "2020-04-15T13:25:33.573Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "piccadilly",
+        "statusSeverity": 3,
+        "statusSeverityDescription": "Part Suspended",
+        "reason": "Piccadilly Line: A 15 minute service is operating between Cockfosters and Heathrow Airport. A 20 minute service is operating between Acton town and Rayners Lane due to operational restrictions. Public transport should only be used for essential journeys ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:41:53Z",
+            "toDate": "2020-04-21T12:41:53Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Piccadilly Line: A 15 minute service is operating between Cockfosters and Heathrow Airport. A 20 minute service is operating between Acton town and Rayners Lane due to operational restrictions. Public transport should only be used for essential journeys ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "partSuspended"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "piccadilly",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Piccadilly Line: A 15 minute service is operating between Cockfosters and Heathrow Airport. A 20 minute service is operating between Acton town and Rayners Lane due to operational restrictions. Public transport should only be used for essential journeys ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:41:54Z",
+            "toDate": "2020-04-21T12:41:54Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Piccadilly Line: A 15 minute service is operating between Cockfosters and Heathrow Airport. A 20 minute service is operating between Acton town and Rayners Lane due to operational restrictions. Public transport should only be used for essential journeys ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Piccadilly&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "victoria",
+    "name": "Victoria",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.577Z",
+    "modified": "2020-04-15T13:25:33.577Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "victoria",
+        "statusSeverity": 0,
+        "statusSeverityDescription": "Special Service",
+        "reason": "Victoria Line: A 6 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T09:59:58Z",
+            "toDate": "2020-04-21T12:59:58Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Victoria Line: A 6 minute service is operating due to operational restrictions. Public transport should only be used for essential journeys. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "specialService"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Night",
+        "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  },
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "waterloo-city",
+    "name": "Waterloo & City",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2020-04-15T13:25:33.58Z",
+    "modified": "2020-04-15T13:25:33.58Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "waterloo-city",
+        "statusSeverity": 4,
+        "statusSeverityDescription": "Planned Closure",
+        "reason": "WATERLOO & CITY LINE: No service until further notice due to operational restrictions.",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-07T12:41:00Z",
+            "toDate": "2020-12-31T01:29:00Z",
+            "isNow": false
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "PlannedWork",
+          "categoryDescription": "PlannedWork",
+          "description": "WATERLOO & CITY LINE: No service until further notice due to operational restrictions.",
+          "created": "2020-04-07T12:41:00Z",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "plannedClosure"
+        }
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "waterloo-city",
+        "statusSeverity": 20,
+        "statusSeverityDescription": "Service Closed",
+        "reason": "Waterloo and City Line: No service due to operational restrictions. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2020-04-21T00:42:54Z",
+            "toDate": "2020-04-21T12:42:54Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Waterloo and City Line: No service due to operational restrictions. ",
+          "affectedRoutes": [],
+          "affectedStops": [],
+          "closureText": "serviceClosed"
+        }
+      }
+    ],
+    "routeSections": [],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  }
+]

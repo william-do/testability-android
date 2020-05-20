@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Testability App</string>
+    <string name="tube_status_title">Tube Status</string>
+</resources>

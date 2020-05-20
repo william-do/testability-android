@@ -1,0 +1,2 @@
+rootProject.name='Testability App'
+include ':app'
